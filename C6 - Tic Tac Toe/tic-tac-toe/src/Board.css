@@ -1,0 +1,24 @@
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    margin: 20px auto;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border: 2px solid #000;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    line-height: 100px;
+  }
+  
+  .status {
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-align: center;
+  }
