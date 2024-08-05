@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
-import ItemList from './ItemList';  // Assuming ItemList is in the same directory
+import './App.css';
+import ItemList from './ItemList';
 
-class Main extends Component {
-    render() {
-        const items = ['Cat', 'Dog', 'Chicken', 'Cow', 'Sheep', 'Horse'];
-
-        return (
-            <div>
-                <h1>List of Items</h1>
-                <ItemList items={items} />
-            </div>
-        );
-    }
+function App() {
+  const items = ['Cat', 'Dog', 'Chicken', 'Cow', 'Sheep', 'Horse'];
+  return (
+    <div className="App">
+      <h1>Animal List</h1>
+      <ItemList items={items} />
+    </div>
+  );
 }
 
-export default Main;
+export default App;

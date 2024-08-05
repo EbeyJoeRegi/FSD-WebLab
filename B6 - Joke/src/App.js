@@ -13,6 +13,6 @@ function App() {
       <JokeList jokes={jokes} />
     </div>
   );
-};
+}
 
 export default App;

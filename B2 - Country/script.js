@@ -1,22 +1,23 @@
-function showCapital() {
-    var select = document.getElementById("country");
-    var capitalSpan = document.getElementById("capital");
-    var selectedCountry = select.value;
-
-    switch (selectedCountry) {
+function showCapital(){
+    var country = document.getElementById('country').value;
+    var capital = document.getElementById('capital');
+    switch (country) {
         case "India":
-            capitalSpan.innerText = "Delhi";
+            capital.innerText = "delhi";
             break;
         case "UAE":
-            capitalSpan.innerText = "Abu Dhabi";
+            capital.innerText = "Abu Dhabi";
             break;
-        case "New zealand":
-            capitalSpan.innerText = "Wellington";
+        case "Sri Lanka":
+            capital.innerText = "Colombo";
             break;
-        case "Germany":
-            capitalSpan.innerText = "Berlin";
+        case "France":
+            capital.innerText = "Paris";
+            break;
+        case "Malasyia":
+            capital.innerText = "Kuala Lumpur";
             break;
         default:
-            capitalSpan.innerText = "";
+            capital.innerText = "";
     }
 }
