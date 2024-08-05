@@ -11,7 +11,7 @@ function Button({ id, label }) {
 
   return (
     <button onClick={handleClick}>
-      {label} (Clicked {clickCount} times)
+      {label} Clicked {clickCount} times
     </button>
   );
 }
